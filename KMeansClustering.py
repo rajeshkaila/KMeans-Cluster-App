@@ -2,12 +2,13 @@
 import subprocess
 subprocess.run(["pip", "install", "matplotlib==3.8.3"])
 import streamlit as st
+import matplotlib
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
-import matplotlib.pyplot as plt
+
 
 # Streamlit app
 def main():
