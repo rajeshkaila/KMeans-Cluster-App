@@ -2,7 +2,6 @@
 import subprocess
 subprocess.run(["pip", "install", "matplotlib==3.8.3"])
 import streamlit as st
-import matplotlib
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
